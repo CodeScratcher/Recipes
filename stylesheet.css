@@ -37,14 +37,45 @@
     text-decoration: none;
     font-family: Courier New;
 }
+#fill{
+    background-color: white;
+    height:130px;
+}
 /* B/L/D */
 h1{
-    position: relative;
+    font-family: Courier New;
     text-align: center;
+    font-size: 500%;
 }
 /*This is for the name of the food*/
 h2{
     font-family: Courier New;
     text-align: center;
     font-size: 300%;
+}
+/* lists */
+#list{
+    position:static;
+    margin-left: auto;
+    margin-right: auto;
+    background: fixed;
+    width: 33%;
+    background-color:#49e656;
+    color: black;
+    font-family: Courier New;
+    border-width: 5px;
+    border-color: #49e656;
+    border-style: solid;
+    font-size: 150%;      
+}
+/* Do I need to tell you what the class called footer is for */
+.footer{
+    background-color: #013d11;
+    color:aliceblue;
+    font-family: Courier New;
+    font-size: 150%;
+}
+
+.footerlink {
+    color:aliceblue;
 }
