@@ -76,6 +76,10 @@ h2{
     font-size: 150%;
 }
 
-.footerlink {
+a{
     color:aliceblue;
+}
+/*need to make links work*/
+.link{
+    color:black;
 }
