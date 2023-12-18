@@ -85,3 +85,6 @@ a{
 li > a{
     color:black;
 }
+img {
+     float: left; 
+}
