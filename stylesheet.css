@@ -70,12 +70,14 @@ h2{
 }
 /* Do I need to tell you what the class called footer is for */
 .footer{
+    position: absolute;
     background-color: #013d11;
     color:aliceblue;
     font-family: Courier New;
     font-size: 150%;
+    bottom: 1%;
+    width: 99%;
 }
-
 a{
     color:aliceblue;
 }
