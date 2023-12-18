@@ -1,0 +1,38 @@
+#breakfast{
+    position:absolute;
+    width:33%;
+    height: 11%;
+    background: fixed;
+    background-color:#04c236;
+    text-align: center;
+    font-size:500%;
+    color:aliceblue;
+    text-decoration: none;
+    font-family: Courier New;
+}
+#lunch{
+    position:absolute;
+    width:33%;
+    height: 11%;
+    background: fixed;
+    background-color:#018023;
+    left: 33%;
+    text-align: center;
+    font-size:500%;
+    color:aliceblue;
+    text-decoration: none;
+    font-family: Courier New;
+}
+#dinner{
+    position:absolute;
+    width:33%;
+    height: 11%;
+    background: fixed;
+    background-color:#013d11;
+    left: 66%;
+    text-align: center;
+    font-size:500%;
+    color:aliceblue;
+    text-decoration: none;
+    font-family: Courier New;
+}
