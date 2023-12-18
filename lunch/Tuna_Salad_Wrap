@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello!</title>
+    <title>Tuna Salad Lettuce Wraps</title>
     <link rel="stylesheet" href="/stylesheet.css" type="text/css" />
   </head>
   <body>
@@ -12,18 +12,17 @@
     </header>
     <h1>Use Breakfest, Lunch, or Dinner here</h1>
     
-    <h2>Name of food here</h2>
+    <h2>Tuna Salad Lettuce Wraps:</h2>
     <ul class="left">
-      <li class="ing">Put Ingredients here</li>
-      <li class="ing">Put Ingredients here</li>
-      <li class="ing">Put Ingredients here</li>
+      <li class="ing">Tuna</li>
+      <li class="ing">celery</li>
+      <li class="ing">red onion</li>
+      <li class="ing">mayo</li>
+      <li class="ing">lettuce leaves</li>
     </ul>
-    // move image to the right if paragraph is left and vice versa
-    <img class="right" href="Image goes here" src="Description goes here">
     <ol class="left">
-      <li class="ins">Put Instructions here</li>
-      <li class="ins">Put Ingredients here</li>
-      <li class="ins">Put Ingredients here</li>
+      <li class="ins">Mix tuna, celery, onion, and mayo</li>
+      <li class="ins">Spoon into lettuce leaves</li>
     </ol>
     <footer class="footer">
         <p>
