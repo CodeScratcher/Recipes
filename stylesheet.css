@@ -91,3 +91,11 @@ a{
 li > a{
     color:black;
 }
+img {
+    position: relative;
+     float: left; 
+     left: 1300px;
+     top: -135px;
+     height: 220px;
+     width: 220px;
+}
