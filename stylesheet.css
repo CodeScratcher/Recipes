@@ -70,16 +70,26 @@ h2{
 }
 /* Do I need to tell you what the class called footer is for */
 .footer{
+    position: absolute;
     background-color: #013d11;
     color:aliceblue;
     font-family: Courier New;
     font-size: 150%;
+    bottom: 1%;
+    width: 99%;
 }
-
 a{
     color:aliceblue;
 }
 /*need to make links work*/
 li > a{
     color:black;
+}
+img {
+    position: relative;
+     float: left; 
+     left: 1300px;
+     top: -135px;
+     height: 220px;
+     width: 220px;
 }
