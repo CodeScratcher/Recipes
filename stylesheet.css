@@ -1,9 +1,5 @@
-/* This is to make shure the screen is fully used */
-html{
-    min-height: 100vh;
-}
 body{
-    min-height: 100%;
+    background-color: #b58f5c;
 }
 /*These are for the header*/
 #breakfast{
@@ -51,7 +47,7 @@ body{
     right: 0px;
 }
 #fill{
-    background-color: white;
+    background-color: #b58f5c;
     height:130px;
 }
 /* B/L/D */
@@ -89,19 +85,27 @@ ul{
     padding:2%;
     width: 33%;
 }
-/* Do I need to tell you what the class called footer is for */
+/* Making the footer footer right */
 .footer{
-    position: relative;
+    position: absolute;
     background-color: #3c280d;
     color:aliceblue;
     font-family: Courier New;
     font-size: 100%;
-    bottom: 0px;
-    width: 100.4%;
+    bottom: 0;
+    width: 99%;
+    margin-bottom: 0;
 }
 a{
     color:aliceblue;
 }
+#pageContainer {
+    position: relative;
+    min-height: 100vh;
+  } 
+#contentWrap {
+    padding-bottom: 10% ;
+  }
 /*need to make links work*/
 li > a{
     color:black;
