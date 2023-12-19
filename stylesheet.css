@@ -1,3 +1,10 @@
+/* This is to make shure the screen is fully used */
+html{
+    min-height: 100vh;
+}
+body{
+    min-height: 100%;
+}
 /*These are for the header*/
 #breakfast{
     position:absolute;
@@ -89,8 +96,8 @@ ul{
     color:aliceblue;
     font-family: Courier New;
     font-size: 100%;
-    bottom: -1px;
-    width: 99%;
+    bottom: 0px;
+    width: 100.4%;
 }
 a{
     color:aliceblue;
