@@ -1,41 +1,47 @@
 /*These are for the header*/
 #breakfast{
     position:absolute;
-    width:33%;
-    height: 13%;
+    width:33.25%;
+    left: 0px;
+    height: 10%;
     background: fixed;
-    background-color:#04c236;
+    background-color:#795c34;
     text-align: center;
     font-size:500%;
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
+    top:0%;
 }
 #lunch{
     position:absolute;
-    width:33%;
-    height: 13%;
+    width:32.6%;
+    height: 10%;
     background: fixed;
-    background-color:#018023;
-    left: 33%;
+    background-color:#4b371c;
+    margin-left: auto;
+    margin-right: auto;
+    left: 34%;
     text-align: center;
     font-size:500%;
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
+    top:0%;
 }
 #dinner{
     position:absolute;
-    width:33%;
-    height: 13%;
+    width:32.6%;
+    height: 10%;
     background: fixed;
-    background-color:#013d11;
-    left: 66%;
+    background-color:#3c280d;
     text-align: center;
     font-size:500%;
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
+    top:0%;
+    right: 0px;
 }
 #fill{
     background-color: white;
@@ -60,21 +66,21 @@ h2{
     margin-right: auto;
     background: fixed;
     width: 33%;
-    background-color:#49e656;
+    background-color:#f5cb9c;
     color: black;
     font-family: Courier New;
     border-width: 5px;
-    border-color: #49e656;
+    border-color: #f5cb9c;
     border-style: solid;
     font-size: 150%;      
 }
 /* Do I need to tell you what the class called footer is for */
 .footer{
     position: absolute;
-    background-color: #013d11;
+    background-color: #3c280d;
     color:aliceblue;
     font-family: Courier New;
-    font-size: 150%;
+    font-size: 100%;
     bottom: 1%;
     width: 99%;
 }
