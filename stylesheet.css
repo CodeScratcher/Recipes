@@ -6,7 +6,7 @@ body{
     position:absolute;
     width:33.25%;
     left: 0px;
-    height: 10%;
+    height: 7%;
     background: fixed;
     background-color:#795c34;
     text-align: center;
@@ -14,12 +14,12 @@ body{
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
-    top:15%;
+    top:7%;
 }
 #lunch{
     position:absolute;
     width:32.6%;
-    height: 10%;
+    height: 7%;
     background: fixed;
     background-color:#4b371c;
     margin-left: auto;
@@ -30,12 +30,12 @@ body{
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
-    top:15%;
+    top:7%;
 }
 #dinner{
     position:absolute;
     width:32.6%;
-    height: 10%;
+    height: 7%;
     background: fixed;
     background-color:#3c280d;
     text-align: center;
@@ -43,12 +43,12 @@ body{
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
-    top:15%;
+    top:7%;
     right: 0px;
 }
 #fill{
     background-color: #b58f5c;
-    height:130px;
+    font-size:600%;
     color: #b58f5c;
 }
 /* B/L/D */
