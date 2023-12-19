@@ -1,0 +1,104 @@
+body{
+    background-color: #b58f5c;
+}
+/*These are for the header*/
+#breakfast{
+    position:absolute;
+    width:33.25%;
+    left: 0px;
+    height: 9%;
+    background: fixed;
+    background-color:#795c34;
+    text-align: center;
+    font-size:500%;
+    color:aliceblue;
+    text-decoration: none;
+    font-family: Courier New;
+    top:9%;
+}
+#lunch{
+    position:absolute;
+    width:32.6%;
+    height: 9%;
+    background: fixed;
+    background-color:#4b371c;
+    margin-left: auto;
+    margin-right: auto;
+    left: 34%;
+    text-align: center;
+    font-size:500%;
+    color:aliceblue;
+    text-decoration: none;
+    font-family: Courier New;
+    top:9%;
+}
+#dinner{
+    position:absolute;
+    width:32.6%;
+    height: 9%;
+    background: fixed;
+    background-color:#3c280d;
+    text-align: center;
+    font-size:500%;
+    color:aliceblue;
+    text-decoration: none;
+    font-family: Courier New;
+    top:9%;
+    right: 0px;
+}
+#fill{
+    background-color: #b58f5c;
+    font-size:600%;
+    color: #b58f5c;
+}
+/* B/L/D */
+h1{
+    font-family: Courier New;
+    text-align: center;
+    font-size: 500%;
+}
+/* lists */
+.list{
+    position:static;
+    margin-left: auto;
+    margin-right: auto;
+    background: fixed;
+    background-color:#f5cb9c;
+    color: black;
+    font-family: Courier New;
+    border-width: 5px;
+    border-color: #f5cb9c;
+    border-style: solid;
+    font-size: 150%; 
+    border-radius: 25px;    
+}
+ul{
+    padding:2%;
+    width: 33%;
+}
+/* Making the footer footer right */
+.footer{
+    position: absolute;
+    background-color: #3c280d;
+    color:aliceblue;
+    font-family: Courier New;
+    font-size: 100%;
+    bottom: 0;
+    width: 99%;
+    margin-bottom: 0;
+}
+a{
+    color:aliceblue;
+}
+#pageContainer {
+    position: relative;
+    min-height: 100vh;
+  } 
+#contentWrap {
+    padding-bottom: 10% ;
+  }
+/*need to make links work*/
+li > a{
+    color:black;
+}
+
