@@ -1,14 +1,14 @@
 :root{
     --grad1:#795c34;
-    --grad2:;
-    --grad3:;
-    --backColor:;
-    --listColor:;
-    --listFontColor:;
+    --grad2:#4b371c;
+    --grad3:#3c280d;
+    --backColor:#b58f5c;
+    --listColor:#f5cb9c;
+    --listFontColor:black;
 }
 /* Background color */
 body{
-    background-color: #b58f5c;
+    background-color: var(--backColor);
 }
 /*These are for the header*/
 #breakfast{
@@ -17,7 +17,7 @@ body{
     left: 0px;
     height: 9%;
     background: fixed;
-    background-color:#795c34;
+    background-color:var(--grad1);
     text-align: center;
     font-size:500%;
     color:aliceblue;
@@ -30,7 +30,7 @@ body{
     width:32.6%;
     height: 9%;
     background: fixed;
-    background-color:#4b371c;
+    background-color:var(--grad2);
     margin-left: auto;
     margin-right: auto;
     left: 34%;
@@ -46,7 +46,7 @@ body{
     width:32.6%;
     height: 9%;
     background: fixed;
-    background-color:#3c280d;
+    background-color:var(--grad3);
     text-align: center;
     font-size:500%;
     color:aliceblue;
@@ -56,9 +56,9 @@ body{
     right: 0px;
 }
 #fill{
-    background-color: #b58f5c;
+    background-color: var(--backColor);
     font-size:500%;
-    color: #b58f5c;
+    color: var(--backColor);
 }
 /* B/L/D */
 h1{
@@ -72,11 +72,11 @@ h1{
     margin-left: auto;
     margin-right: auto;
     background: fixed;
-    background-color:#f5cb9c;
-    color: black;
+    background-color:var(--listColor);
+    color: var(--listFontColor);
     font-family: Courier New;
     border-width: 5px;
-    border-color: #f5cb9c;
+    border-color: var(--listColor);
     border-style: solid;
     font-size: 150%; 
     border-radius: 25px;    
@@ -108,7 +108,7 @@ a{
   }
 /*need to make links work*/
 li > a{
-    color:black;
+    color:var(--listFontColor);
 }
 
 button {
