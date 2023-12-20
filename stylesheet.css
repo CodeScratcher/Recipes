@@ -5,6 +5,23 @@
     --backColor:#b58f5c;
     --listColor:#f5cb9c;
     --listFontColor:black;
+    --headerHeight:7%;
+    --headertext:500%;
+}
+@media (max-width: 600px) {
+    :root{
+        --grad1:#795c34;
+        --grad2:#4b371c;
+        --grad3:#3c280d;
+        --backColor:green;
+        --listColor:#f5cb9c;
+        --listFontColor:black;
+        --headerHeight:5%;
+        --headertext:300%;
+    }
+    
+
+    
 }
 /* Background color */
 body{
@@ -15,11 +32,11 @@ body{
     position:absolute;
     width:33.25%;
     left: 0px;
-    height: 7%;
+    height: var(--headerHeight);
     background: fixed;
     background-color:var(--grad1);
     text-align: center;
-    font-size:500%;
+    font-size:var(--headertext);
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
@@ -28,14 +45,14 @@ body{
 #lunch{
     position:absolute;
     width:32.6%;
-    height: 7%;
+    height: var(--headerHeight);
     background: fixed;
     background-color:var(--grad2);
     margin-left: auto;
     margin-right: auto;
     left: 34%;
     text-align: center;
-    font-size:500%;
+    font-size:var(--headertext);
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
@@ -44,11 +61,11 @@ body{
 #dinner{
     position:absolute;
     width:32.6%;
-    height: 7%;
+    height: var(--headerHeight);
     background: fixed;
     background-color:var(--grad3);
     text-align: center;
-    font-size:500%;
+    font-size:var(--headertext);
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
@@ -150,3 +167,4 @@ button {
     height: 250px;
     width: 250px;
 }
+/* Using https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
