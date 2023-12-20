@@ -7,10 +7,11 @@ function switchHide(obj) {
 
 // update CSS variables based on an object
 function updateColorScheme(colorScheme) {
+   
     // loop through keys and values in color scheme
     for (const [key, value] of Object.entries(colorScheme)) {
         // update the matching CSS variable
-        document.documentElement.style.setProperty(key, value);
+        document.querySelector(':root').style.setProperty("--" + key, value);
     }
     
 }
@@ -34,9 +35,10 @@ function setColor() {
         listFontColor: "white"
     };
     let date = new Date(Date.now());
-    if (date.getMonth() == 12 && (date.getDay() >= 21 && date.getDay() <= 25)) {
+    if (date.getMonth() == 11 && (date.getDate() >= 21 && date.getDate() <= 25)) {
+        
         updateColorScheme(christmasColorScheme);
     }   
 }
 
-setColor();
+document.addEventListener("DOMContentLoaded",  e => {setColor()});
