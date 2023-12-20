@@ -19,8 +19,14 @@
     --olPadding:3%;
     --olWith:31%;
     --conPad:10%;
+    --imgSize:15%;
+    --imgCenter:42.5%;
+    --logoX:5%;
+    --logoY:-6%;
+    --logSize:225px;
 }
-@media (max-width: 600px) {
+/* Using https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+@media (max-width:600px) {
     :root{
         --grad1:#795c34;
         --grad2:#4b371c;
@@ -36,12 +42,17 @@
         --dinnerTop:16.3%;
         --headerWith:100%;
         --lunchAline:0px;
-        --fill:570%;
+        --fill:1200%;
         --ulPadding:7%;
         --ulWith:53%;
         --olPadding:10%;
         --olWith:47%;
         --conPad:23%;
+        --imgSize:40%;
+        --imgCenter:30%;
+        --logoX:37%;
+        --logoY:-1.5%;
+        --logSize:200px;
     }
 }
 /* Background color */
@@ -161,9 +172,9 @@ li > a{
 /* img */
 img {
     position: relative;
-    left:42.5%;
-    width: 15%;
-    height: 15%;
+    left:var(--imgCenter);
+    width: var(--imgSize);
+    height: var(--imgSize);
     border-radius: 25px;
 }
 
@@ -183,9 +194,9 @@ button {
 #logo {
     position: absolute;
     float: left;
-    top: -110px;
-    left: 150px;
-    height: 250px;
-    width: 250px;
+    top: var(--logoY);
+    left: var(--logoX);
+    height: var(--logSize);
+    width: var(--logSize);
 }
-/* Using https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+
