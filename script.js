@@ -17,11 +17,23 @@ function updateColorScheme(colorScheme) {
 
 function setColor() {
     // define a couple color schemes
-    const defaultColorScheme = {};
-    const christmasColorScheme = {};
+    const defaultColorScheme = {
+        grad1:
+        grad2:
+        grad3:
+        backColor:
+        listColor:
+    };
+    const christmasColorScheme = {
+        grad1:
+        grad2:
+        grad3:
+        backColor:
+        listColor:
+    };
     let date = new Date(Date.now());
     if (date.getMonth() == 12 && (date.getDay() >= 21 && date.getDay() <= 25)) {
-        
+        updateColorScheme(christmasColorScheme);
     }   
 }
 
