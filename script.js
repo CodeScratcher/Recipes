@@ -18,18 +18,20 @@ function updateColorScheme(colorScheme) {
 function setColor() {
     // define a couple color schemes
     const defaultColorScheme = {
-        grad1:
-        grad2:
-        grad3:
-        backColor:
-        listColor:
+        grad1: "#795c34",
+        grad2: "#4b371c",
+        grad3: "#3c280d",
+        backColor: "#b58f5c",
+        listColor: "#f5cb9c",
+        listFontColor: "black"
     };
     const christmasColorScheme = {
-        grad1:
-        grad2:
-        grad3:
-        backColor:
-        listColor:
+        grad1: "#795c34",
+        grad2: "#4b371c",
+        grad3: "#3c280d",
+        backColor: "#b58f5c",
+        listColor: "#f5cb9c",
+        listFontColor: "black"
     };
     let date = new Date(Date.now());
     if (date.getMonth() == 12 && (date.getDay() >= 21 && date.getDay() <= 25)) {
