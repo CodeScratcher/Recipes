@@ -7,21 +7,40 @@
     --listFontColor:black;
     --headerHeight:7%;
     --headertext:500%;
+    --h1Size:500%;
+    --breakfastTop:7%;
+    --lunchTop:7%;
+    --dinnerTop:7%;
+    --headerWith:33%;
+    --lunchAline:34%;
+    --fill:500%;
+    --ulPadding:2%;
+    --ulWith:33%;
+    --olPadding:3%;
+    --olWith:31%;
 }
 @media (max-width: 600px) {
     :root{
         --grad1:#795c34;
         --grad2:#4b371c;
         --grad3:#3c280d;
-        --backColor:green;
+        --backColor:#b58f5c;
         --listColor:#f5cb9c;
         --listFontColor:black;
-        --headerHeight:5%;
+        --headerHeight:3.7%;
         --headertext:300%;
+        --h1Size:350%;
+        --breakfastTop:8.7%;
+        --lunchTop:12.5%;
+        --dinnerTop:16.3%;
+        --headerWith:100%;
+        --lunchAline:0px;
+        --fill:570%;
+        --ulPadding:12%;
+        --ulWith:53%;
+        --olPadding:13%;
+        --olWith:51%;
     }
-    
-
-    
 }
 /* Background color */
 body{
@@ -30,7 +49,7 @@ body{
 /*These are for the header*/
 #breakfast{
     position:absolute;
-    width:33.25%;
+    width:var(--headerWith);
     left: 0px;
     height: var(--headerHeight);
     background: fixed;
@@ -40,27 +59,27 @@ body{
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
-    top:7%;
+    top:var(--breakfastTop);
 }
 #lunch{
     position:absolute;
-    width:32.6%;
+    width:var(--headerWith);
     height: var(--headerHeight);
     background: fixed;
     background-color:var(--grad2);
     margin-left: auto;
     margin-right: auto;
-    left: 34%;
+    left: var(--lunchAline);
     text-align: center;
     font-size:var(--headertext);
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
-    top:7%;
+    top:var(--lunchTop);
 }
 #dinner{
     position:absolute;
-    width:32.6%;
+    width:var(--headerWith);
     height: var(--headerHeight);
     background: fixed;
     background-color:var(--grad3);
@@ -69,19 +88,19 @@ body{
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
-    top:7%;
+    top:var(--dinnerTop);
     right: 0px;
 }
 #fill{
     background-color: var(--backColor);
-    font-size:500%;
+    font-size:var(--fill);
     color: var(--backColor);
 }
 /* B/L/D */
 h1{
     font-family: Courier New;
     text-align: center;
-    font-size: 500%;
+    font-size: var(--h1Size);
 }
 /*This is for the name of the food*/
 h2{
@@ -105,12 +124,12 @@ h2{
     border-radius: 25px;    
 }
 ol{
-    padding:3%;
-    width: 31%;
+    padding:var(--olPadding);
+    width: var(--olWith);
 }
 ul{
-    padding:2%;
-    width: 33%;
+    padding:var(--ulPadding);
+    width: var(--ulWith);
 }
 /* Making the footer footer right */
 .footer{
