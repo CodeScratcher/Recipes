@@ -7,7 +7,7 @@
     --listFontColor:black;
     --headerHeight:7%;
     --headertext:500%;
-    --h1Size:500%;
+    --h1Size:400%;
     --breakfastTop:7%;
     --lunchTop:7%;
     --dinnerTop:7%;
@@ -19,8 +19,8 @@
     --olPadding:3%;
     --olWith:31%;
     --conPad:10%;
-    --imgSize:15%;
-    --imgCenter:42.5%;
+    --imgSize:10%;
+    --imgCenter:44.5%;
     --logoX:5%;
     --logoY:-6%;
     --logSize:225px;
@@ -36,13 +36,13 @@
         --listFontColor:black;
         --headerHeight:3.7%;
         --headertext:300%;
-        --h1Size:350%;
+        --h1Size:280%;
         --breakfastTop:8.7%;
         --lunchTop:12.5%;
         --dinnerTop:16.3%;
         --headerWith:100%;
         --lunchAline:0px;
-        --fill:1200%;
+        --fill:1150%;
         --ulPadding:7%;
         --ulWith:53%;
         --olPadding:10%;
@@ -119,7 +119,7 @@ h1{
 h2{
     font-family: Courier New;
     text-align: center;
-    font-size: 300%;
+    font-size: 250%;
 }
 /* lists */
 .list{
@@ -133,7 +133,7 @@ h2{
     border-width: 5px;
     border-color: var(--listColor);
     border-style: solid;
-    font-size: 150%; 
+    font-size: 1.5em; 
     border-radius: 25px;    
 }
 ol{
