@@ -5,15 +5,15 @@
     --backColor:#b58f5c;
     --listColor:#f5cb9c;
     --listFontColor:black;
-    --headerHeight:7%;
+    --headerHeight:8.5%;
     --headertext:500%;
     --h1Size:500%;
-    --breakfastTop:7%;
-    --lunchTop:7%;
-    --dinnerTop:7%;
+    --breakfastTop:9%;
+    --lunchTop:9%;
+    --dinnerTop:9%;
     --headerWith:33%;
     --lunchAline:33.5%;
-    --fill:170%;
+    --fill:200%;
     --ulPadding:2%;
     --ulWith:33%;
     --olPadding:3%;
@@ -22,10 +22,11 @@
     --imgSize:15%;
     --imgCenter:42.5%;
     --logoX:5%;
-    --logoY:-6%;
+    --logoY:-8%;
     --logSize:225px;
 }
-@media (max-width: 600px) {
+/* Using https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+@media (max-width:600px) {
     :root{
         --grad1:#795c34;
         --grad2:#4b371c;
@@ -36,12 +37,12 @@
         --headerHeight:3.7%;
         --headertext:300%;
         --h1Size:350%;
-        --breakfastTop:8.7%;
-        --lunchTop:12.5%;
-        --dinnerTop:16.3%;
+        --breakfastTop:10.7%;
+        --lunchTop:14.5%;
+        --dinnerTop:18.3%;
         --headerWith:100%;
         --lunchAline:0px;
-        --fill:1200%;
+        --fill:900%;
         --ulPadding:7%;
         --ulWith:53%;
         --olPadding:10%;
@@ -63,7 +64,7 @@ body{
     position:absolute;
     width:var(--headerWith);
     left: 0px;
-    height:var(--headerHeight);
+    height: var(--headerHeight);
     background: fixed;
     background-color:var(--grad1);
     text-align: center;
@@ -110,10 +111,15 @@ body{
 }
 /* B/L/D */
 h1{
-    margin-top: 15%;
     font-family: Courier New;
     text-align: center;
     font-size: var(--h1Size);
+}
+/*This is for the name of the food*/
+h2{
+    font-family: Courier New;
+    text-align: center;
+    font-size: 300%;
 }
 /* lists */
 .list{
@@ -129,6 +135,10 @@ h1{
     border-style: solid;
     font-size: 150%; 
     border-radius: 25px;    
+}
+ol{
+    padding:var(--olPadding);
+    width: var(--olWith);
 }
 ul{
     padding:var(--ulPadding);
@@ -153,11 +163,19 @@ a{
     min-height: 100vh;
   } 
 #contentWrap {
-    padding-bottom: 10% ;
+    padding-bottom: var(--conPad);
   }
 /*need to make links work*/
 li > a{
     color:var(--listFontColor);
+}
+/* img */
+img {
+    position: relative;
+    left:var(--imgCenter);
+    width: var(--imgSize);
+    height: var(--imgSize);
+    border-radius: 25px;
 }
 
 button {
@@ -172,16 +190,13 @@ button {
     right: 0px;
     border: 0px;
 }
-h2{
-    font-family: Courier New;
-    text-align: center;
-    font-size: 300%;
-}
+
 #logo {
     position: absolute;
     float: left;
-    top: -175px;
-    left: 150px;
-    height: 250px;
-    width: 250px;
+    top: var(--logoY);
+    left: var(--logoX);
+    height: var(--logSize);
+    width: var(--logSize);
 }
+
