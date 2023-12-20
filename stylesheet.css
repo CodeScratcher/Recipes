@@ -12,12 +12,13 @@
     --lunchTop:7%;
     --dinnerTop:7%;
     --headerWith:33%;
-    --lunchAline:34%;
+    --lunchAline:33.5%;
     --fill:500%;
     --ulPadding:2%;
     --ulWith:33%;
     --olPadding:3%;
     --olWith:31%;
+    --conPad:10%;
 }
 @media (max-width: 600px) {
     :root{
@@ -36,10 +37,11 @@
         --headerWith:100%;
         --lunchAline:0px;
         --fill:570%;
-        --ulPadding:12%;
+        --ulPadding:7%;
         --ulWith:53%;
-        --olPadding:13%;
-        --olWith:51%;
+        --olPadding:10%;
+        --olWith:47%;
+        --conPad:23%;
     }
 }
 /* Background color */
@@ -150,7 +152,7 @@ a{
     min-height: 100vh;
   } 
 #contentWrap {
-    padding-bottom: 10% ;
+    padding-bottom: var(--conPad);
   }
 /*need to make links work*/
 li > a{
