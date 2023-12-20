@@ -1,3 +1,12 @@
+:root{
+    --grad1:#795c34;
+    --grad2:;
+    --grad3:;
+    --backColor:;
+    --listColor:;
+    --listFontColor:;
+}
+/* Background color */
 body{
     background-color: #b58f5c;
 }
@@ -113,4 +122,9 @@ button {
     top:7%;
     right: 0px;
     border: 0px;
+}
+h2{
+    font-family: Courier New;
+    text-align: center;
+    font-size: 300%;
 }
