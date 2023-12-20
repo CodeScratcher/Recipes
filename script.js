@@ -42,3 +42,7 @@ function setColor() {
 }
 
 document.addEventListener("DOMContentLoaded",  e => {setColor()});
+
+if (window.matchMedia("(max-width: 600px").matches) {
+    console.log("true")
+}
