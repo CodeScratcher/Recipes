@@ -55,6 +55,9 @@ body{
     top:9%;
     right: 0px;
 }
+#title{
+    
+}
 #fill{
     background-color: var(--backColor);
     font-size:500%;
