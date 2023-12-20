@@ -141,3 +141,12 @@ button {
     right: 0px;
     border: 0px;
 }
+
+#logo {
+    position: absolute;
+    float: left;
+    top: -110px;
+    left: 150px;
+    height: 250px;
+    width: 250px;
+}
