@@ -5,15 +5,15 @@
     --backColor:#b58f5c;
     --listColor:#f5cb9c;
     --listFontColor:black;
-    --headerHeight:8.5%;
+    --headerHeight:85px;
     --headertext:500%;
     --h1Size:450%;
-    --breakfastTop:9%;
-    --lunchTop:9%;
-    --dinnerTop:9%;
+    --breakfastTop:87px;
+    --lunchTop:87px;
+    --dinnerTop:87px;
     --headerWith:33%;
     --lunchAline:33.5%;
-    --fill:110em%;
+    --fill:2.5em;
     --ulPadding:2%;
     --ulWith:33%;
     --olPadding:3%;
@@ -25,8 +25,21 @@
     --logoY:-8%;
     --logSize:225px;
 }
+#logo {
+    position: absolute;
+    float: left;
+    top: -8%;
+    left: 5%;
+    height: 225px;
+    width: 225px;
+}
+
+header {
+    width: 100%;
+}
+
 /* Using https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
-@media (max-width:600px) {
+@media (max-width:1400px) {
     :root{
         --grad1:#795c34;
         --grad2:#4b371c;
@@ -34,12 +47,12 @@
         --backColor:#b58f5c;
         --listColor:#f5cb9c;
         --listFontColor:black;
-        --headerHeight:3.7%;
+        --headerHeight:44px;
         --headertext:300%;
         --h1Size:315%;
-        --breakfastTop:10.7%;
-        --lunchTop:14.5%;
-        --dinnerTop:18.3%;
+        --breakfastTop:134px;
+        --lunchTop:181px;
+        --dinnerTop:228px;
         --headerWith:100%;
         --lunchAline:0px;
         --fill:1000%;
@@ -53,6 +66,12 @@
         --logoX:37%;
         --logoY:-2.2%;
         --logSize:200px;
+    }
+    #logo {
+        display: block;
+        margin: auto;
+        height: 200px;
+        width: 200px;
     }
 }
 /* Background color */
@@ -105,7 +124,7 @@ body{
     right: 0px;
 }
 #fill{
-    color: red;
+    color:var(--backColor);
     background-color:var(--backColor);
     font-size: var(--fill);
     min-height: 100%;
@@ -194,12 +213,5 @@ button {
     border: 0px;
 }
 
-#logo {
-    position: absolute;
-    float: left;
-    top: var(--logoY);
-    left: var(--logoX);
-    height: var(--logSize);
-    width: var(--logSize);
-}
+
 
