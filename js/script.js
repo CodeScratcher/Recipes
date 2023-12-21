@@ -1,4 +1,5 @@
 function switchHide(obj) {
+    // determine the correct display and change oll relevant elements
     var hide = document.querySelector("header").style.display == "none";
     document.querySelector("header").style.display = hide ? "block" : "none";
     document.querySelector("#fill").style.display = hide ? "block" : "none";
@@ -34,9 +35,11 @@ function setColor() {
         listColor: "#BB3131",
         listFontColor: "white"
     };
+    // create date from the current date
     let date = new Date(Date.now());
     if (date.getMonth() == 11 && (date.getDate() >= 21 && date.getDate() <= 25)) {
-        
+        // if date is correct, update the color scheme
+
         updateColorScheme(christmasColorScheme);
     }   
 }
