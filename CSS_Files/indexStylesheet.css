@@ -22,17 +22,10 @@
     --imgSize:15%;
     --imgCenter:42.5%;
     --logoX:5%;
-    --logoY:-8%;
+    --logoY:-100px;
     --logSize:225px;
 }
-#logo {
-    position: absolute;
-    float: left;
-    top: var(--logoY);
-    left: var(--logoX);
-    height: var(--logSize);
-    width: var(--logSize);
-}
+
 
 header {
     width: 100%;
@@ -48,15 +41,15 @@ header {
         --backColor:#b58f5c;
         --listColor:#f5cb9c;
         --listFontColor:black;
-        --headerHeight:3.7%;
+        --headerHeight:45px;
         --headertext:200%;
         --h1Size:280%;
-        --breakfastTop:8.7%;
-        --lunchTop:12.5%;
-        --dinnerTop:16.3%;
+        --breakfastTop:109px;
+        --lunchTop:158px;
+        --dinnerTop:207px;
         --headerWith:100%;
         --lunchAline:0px;
-        --fill:1150%;
+        --fill:1040%;
         --ulPadding:7%;
         --ulWith:53%;
         --olPadding:10%;
@@ -64,15 +57,9 @@ header {
         --conPad:23%;
         --imgSize:40%;
         --imgCenter:30%;
-        --logoX:37%;
-        --logoY:-2.2%;
-        --logSize:200px;
-    }
-    #logo {
-        display: block;
-        margin: auto;
-        height: 200px;
-        width: 200px;
+        --logoX:42.5%;
+        --logoY:-35px;
+        --logSize:15%;
     }
 }
 /* Background color */
@@ -212,10 +199,13 @@ button {
     color:aliceblue;
     text-decoration: none;
     font-family: Courier New;
-    top:7%;
-    right: 0px;
-    border: 0px;
+
 }
-
-
-
+#logo {
+    position: absolute;
+    float: left;
+    top: var(--logoY);
+    left: var(--logoX);
+    height: var(--logSize);
+    width: var(--logSize);
+}
