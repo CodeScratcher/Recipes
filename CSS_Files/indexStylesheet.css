@@ -41,6 +41,7 @@ header {
 /* Using https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 @media (max-width:1400px) {
     :root{
+        --marginTop: 15px;
         --grad1:#795c34;
         --grad2:#4b371c;
         --grad3:#3c280d;
@@ -48,7 +49,7 @@ header {
         --listColor:#f5cb9c;
         --listFontColor:black;
         --headerHeight:3.7%;
-        --headertext:240%;
+        --headertext:200%;
         --h1Size:280%;
         --breakfastTop:8.7%;
         --lunchTop:12.5%;
@@ -83,6 +84,7 @@ body{
     position:absolute;
     width:var(--headerWith);
     left: 0px;
+    margin-top: var(--marginTop);
     height: var(--headerHeight);
     background: fixed;
     background-color:var(--grad1);
@@ -95,6 +97,7 @@ body{
 }
 #lunch{
     position:absolute;
+    margin-top: var(--marginTop);
     width:var(--headerWith);
     height: var(--headerHeight);
     background: fixed;
@@ -111,6 +114,7 @@ body{
 }
 #dinner{
     position:absolute;
+    margin-top: var(--marginTop);
     width:var(--headerWith);
     height: var(--headerHeight);
     background: fixed;
