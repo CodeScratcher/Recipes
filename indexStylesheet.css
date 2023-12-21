@@ -7,13 +7,13 @@
     --listFontColor:black;
     --headerHeight:8.5%;
     --headertext:500%;
-    --h1Size:500%;
+    --h1Size:450%;
     --breakfastTop:9%;
     --lunchTop:9%;
     --dinnerTop:9%;
     --headerWith:33%;
     --lunchAline:33.5%;
-    --fill:200%;
+    --fill:110em%;
     --ulPadding:2%;
     --ulWith:33%;
     --olPadding:3%;
@@ -36,13 +36,13 @@
         --listFontColor:black;
         --headerHeight:3.7%;
         --headertext:300%;
-        --h1Size:350%;
+        --h1Size:315%;
         --breakfastTop:10.7%;
         --lunchTop:14.5%;
         --dinnerTop:18.3%;
         --headerWith:100%;
         --lunchAline:0px;
-        --fill:900%;
+        --fill:1000%;
         --ulPadding:7%;
         --ulWith:53%;
         --olPadding:10%;
@@ -51,7 +51,7 @@
         --imgSize:40%;
         --imgCenter:30%;
         --logoX:37%;
-        --logoY:-1.5%;
+        --logoY:-2.2%;
         --logSize:200px;
     }
 }
@@ -105,9 +105,12 @@ body{
     right: 0px;
 }
 #fill{
-    background-color: var(--backColor);
-    font-size:var(--fill);
-    color: var(--backColor);
+    color: red;
+    background-color:var(--backColor);
+    font-size: var(--fill);
+    min-height: 100%;
+    height:100%;
+    width:100%;
 }
 /* B/L/D */
 h1{
@@ -150,7 +153,7 @@ ul{
     background-color: var(--grad3);
     color:aliceblue;
     font-family: Courier New;
-    font-size: 100%;
+    font-size: 75%;
     bottom: 0;
     width: 99%;
     margin-bottom: 0;
