@@ -5,15 +5,15 @@
     --backColor:#b58f5c;
     --listColor:#f5cb9c;
     --listFontColor:black;
-    --headerHeight:7%;
-    --headertext:500%;
+    --headerHeight:6%;
+    --headertext:400%;
     --h1Size:400%;
     --breakfastTop:7%;
     --lunchTop:7%;
     --dinnerTop:7%;
     --headerWith:33%;
     --lunchAline:33.5%;
-    --fill:500%;
+    --fill:400%;
     --ulPadding:2%;
     --ulWith:33%;
     --olPadding:3%;
@@ -35,7 +35,7 @@
         --listColor:#f5cb9c;
         --listFontColor:black;
         --headerHeight:3.7%;
-        --headertext:300%;
+        --headertext:240%;
         --h1Size:280%;
         --breakfastTop:8.7%;
         --lunchTop:12.5%;
