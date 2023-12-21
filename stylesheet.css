@@ -1,0 +1,217 @@
+:root{
+    --grad1:#795c34;
+    --grad2:#4b371c;
+    --grad3:#3c280d;
+    --backColor:#b58f5c;
+    --listColor:#f5cb9c;
+    --listFontColor:black;
+    --headerHeight:85px;
+    --headertext:500%;
+    --h1Size:450%;
+    --breakfastTop:87px;
+    --lunchTop:87px;
+    --dinnerTop:87px;
+    --headerWith:33%;
+    --lunchAline:33.5%;
+    --fill:2.5em;
+    --ulPadding:2%;
+    --ulWith:33%;
+    --olPadding:3%;
+    --olWith:31%;
+    --conPad:10%;
+    --imgSize:15%;
+    --imgCenter:42.5%;
+    --logoX:5%;
+    --logoY:-8%;
+    --logSize:225px;
+}
+#logo {
+    position: absolute;
+    float: left;
+    top: -8%;
+    left: 5%;
+    height: 225px;
+    width: 225px;
+}
+
+header {
+    width: 100%;
+}
+
+/* Using https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+@media (max-width:1400px) {
+    :root{
+        --grad1:#795c34;
+        --grad2:#4b371c;
+        --grad3:#3c280d;
+        --backColor:#b58f5c;
+        --listColor:#f5cb9c;
+        --listFontColor:black;
+        --headerHeight:44px;
+        --headertext:300%;
+        --h1Size:315%;
+        --breakfastTop:134px;
+        --lunchTop:181px;
+        --dinnerTop:228px;
+        --headerWith:100%;
+        --lunchAline:0px;
+        --fill:1000%;
+        --ulPadding:7%;
+        --ulWith:53%;
+        --olPadding:10%;
+        --olWith:47%;
+        --conPad:23%;
+        --imgSize:40%;
+        --imgCenter:30%;
+        --logoX:37%;
+        --logoY:-2.2%;
+        --logSize:200px;
+    }
+    #logo {
+        display: block;
+        margin: auto;
+        height: 200px;
+        width: 200px;
+    }
+}
+/* Background color */
+body{
+    background-color: var(--backColor);
+}
+/*These are for the header*/
+#breakfast{
+    position:absolute;
+    width:var(--headerWith);
+    left: 0px;
+    height: var(--headerHeight);
+    background: fixed;
+    background-color:var(--grad1);
+    text-align: center;
+    font-size:var(--headertext);
+    color:aliceblue;
+    text-decoration: none;
+    font-family: Courier New;
+    top:var(--breakfastTop);
+}
+#lunch{
+    position:absolute;
+    width:var(--headerWith);
+    height: var(--headerHeight);
+    background: fixed;
+    background-color:var(--grad2);
+    margin-left: auto;
+    margin-right: auto;
+    left: var(--lunchAline);
+    text-align: center;
+    font-size:var(--headertext);
+    color:aliceblue;
+    text-decoration: none;
+    font-family: Courier New;
+    top:var(--lunchTop);
+}
+#dinner{
+    position:absolute;
+    width:var(--headerWith);
+    height: var(--headerHeight);
+    background: fixed;
+    background-color:var(--grad3);
+    text-align: center;
+    font-size:var(--headertext);
+    color:aliceblue;
+    text-decoration: none;
+    font-family: Courier New;
+    top:var(--dinnerTop);
+    right: 0px;
+}
+#fill{
+    color:var(--backColor);
+    background-color:var(--backColor);
+    font-size: var(--fill);
+    min-height: 100%;
+    height:100%;
+    width:100%;
+}
+/* B/L/D */
+h1{
+    font-family: Courier New;
+    text-align: center;
+    font-size: var(--h1Size);
+}
+/*This is for the name of the food*/
+h2{
+    font-family: Courier New;
+    text-align: center;
+    font-size: 300%;
+}
+/* lists */
+.list{
+    position:static;
+    margin-left: auto;
+    margin-right: auto;
+    background: fixed;
+    background-color:var(--listColor);
+    color: var(--listFontColor);
+    font-family: Courier New;
+    border-width: 5px;
+    border-color: var(--listColor);
+    border-style: solid;
+    font-size: 150%; 
+    border-radius: 25px;    
+}
+ol{
+    padding:var(--olPadding);
+    width: var(--olWith);
+}
+ul{
+    padding:var(--ulPadding);
+    width: var(--ulWith);
+}
+/* Making the footer footer right */
+.footer{
+    position: absolute;
+    background-color: var(--grad3);
+    color:aliceblue;
+    font-family: Courier New;
+    font-size: 75%;
+    bottom: 0;
+    width: 99%;
+    margin-bottom: 0;
+}
+a{
+    color:aliceblue;
+}
+#pageContainer {
+    position: relative;
+    min-height: 100vh;
+  } 
+#contentWrap {
+    padding-bottom: var(--conPad);
+  }
+/*need to make links work*/
+li > a{
+    color:var(--listFontColor);
+}
+/* img */
+img {
+    position: relative;
+    left:var(--imgCenter);
+    width: var(--imgSize);
+    height: var(--imgSize);
+    border-radius: 25px;
+}
+
+button {
+    width: 100%;
+    background-color:#000000;
+    text-align: center;
+    font-size:200%;
+    color:aliceblue;
+    text-decoration: none;
+    font-family: Courier New;
+    top:7%;
+    right: 0px;
+    border: 0px;
+}
+
+
+
