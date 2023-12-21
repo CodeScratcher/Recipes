@@ -28,10 +28,10 @@
 #logo {
     position: absolute;
     float: left;
-    top: -8%;
-    left: 5%;
-    height: 225px;
-    width: 225px;
+    top: var(--logoY);
+    left: var(--logoX);
+    height: var(--logSize);
+    width: var(--logSize);
 }
 
 header {
@@ -47,15 +47,15 @@ header {
         --backColor:#b58f5c;
         --listColor:#f5cb9c;
         --listFontColor:black;
-        --headerHeight:44px;
-        --headertext:300%;
-        --h1Size:315%;
-        --breakfastTop:134px;
-        --lunchTop:181px;
-        --dinnerTop:228px;
+        --headerHeight:3.7%;
+        --headertext:240%;
+        --h1Size:280%;
+        --breakfastTop:8.7%;
+        --lunchTop:12.5%;
+        --dinnerTop:16.3%;
         --headerWith:100%;
         --lunchAline:0px;
-        --fill:1000%;
+        --fill:1150%;
         --ulPadding:7%;
         --ulWith:53%;
         --olPadding:10%;
