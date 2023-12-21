@@ -55,11 +55,10 @@ header {
         --olPadding:5%;
         --olWith:50%;
         --conPad:23%;
-        --imgSize:10%;
-        --imgCenter:100%;
-        --logoX:42.5%;
+        --imgSize:200px;
         --logoY:-40px;
-        --logSize:15%;
+        --logSize:200px;
+        --logoX:calc(50% - ( var(--logSize) / 2));
     }
 }
 /* Background color */
